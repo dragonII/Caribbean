@@ -586,7 +586,7 @@
 		2FDA6A091AB14B7900F5A5D2 /* ProductsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsCell.xib; sourceTree = "<group>"; };
 		2FEA73371AA97A2E00A652D2 /* LTransitionImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTransitionImageView.h; path = Classes/LTransitionImageView.h; sourceTree = "<group>"; };
 		2FEA73381AA97A2E00A652D2 /* LTransitionImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTransitionImageView.m; path = Classes/LTransitionImageView.m; sourceTree = "<group>"; };
-		2FEEE8561A7E5B8E0095D8DB /* YouMao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouMao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEEE8561A7E5B8E0095D8DB /* Caribbean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caribbean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEEE85A1A7E5B8E0095D8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FEEE85B1A7E5B8E0095D8DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2FEEE85D1A7E5B8E0095D8DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1095,7 +1095,7 @@
 		2FEEE8571A7E5B8E0095D8DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FEEE8561A7E5B8E0095D8DB /* YouMao.app */,
+				2FEEE8561A7E5B8E0095D8DB /* Caribbean.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1191,9 +1191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FEEE8551A7E5B8E0095D8DB /* YouMao */ = {
+		2FEEE8551A7E5B8E0095D8DB /* Caribbean */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FEEE8791A7E5B8F0095D8DB /* Build configuration list for PBXNativeTarget "YouMao" */;
+			buildConfigurationList = 2FEEE8791A7E5B8F0095D8DB /* Build configuration list for PBXNativeTarget "Caribbean" */;
 			buildPhases = (
 				2FEEE8521A7E5B8E0095D8DB /* Sources */,
 				2FEEE8531A7E5B8E0095D8DB /* Frameworks */,
@@ -1203,9 +1203,9 @@
 			);
 			dependencies = (
 			);
-			name = YouMao;
+			name = Caribbean;
 			productName = BinFenV10;
-			productReference = 2FEEE8561A7E5B8E0095D8DB /* YouMao.app */;
+			productReference = 2FEEE8561A7E5B8E0095D8DB /* Caribbean.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1223,7 +1223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2FEEE8511A7E5B8E0095D8DB /* Build configuration list for PBXProject "YouMao" */;
+			buildConfigurationList = 2FEEE8511A7E5B8E0095D8DB /* Build configuration list for PBXProject "Caribbean" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1237,7 +1237,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FEEE8551A7E5B8E0095D8DB /* YouMao */,
+				2FEEE8551A7E5B8E0095D8DB /* Caribbean */,
 			);
 		};
 /* End PBXProject section */
@@ -1623,7 +1623,7 @@
 				INFOPLIST_FILE = BinFenV10/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = YouMao;
+				PRODUCT_NAME = Caribbean;
 			};
 			name = Debug;
 		};
@@ -1636,14 +1636,14 @@
 				INFOPLIST_FILE = BinFenV10/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = YouMao;
+				PRODUCT_NAME = Caribbean;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FEEE8511A7E5B8E0095D8DB /* Build configuration list for PBXProject "YouMao" */ = {
+		2FEEE8511A7E5B8E0095D8DB /* Build configuration list for PBXProject "Caribbean" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FEEE8771A7E5B8F0095D8DB /* Debug */,
@@ -1652,7 +1652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FEEE8791A7E5B8F0095D8DB /* Build configuration list for PBXNativeTarget "YouMao" */ = {
+		2FEEE8791A7E5B8F0095D8DB /* Build configuration list for PBXNativeTarget "Caribbean" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FEEE87A1A7E5B8F0095D8DB /* Debug */,
