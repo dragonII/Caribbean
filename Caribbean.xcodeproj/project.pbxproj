@@ -596,8 +596,6 @@
 		2FEEE8641A7E5B8F0095D8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FEEE8661A7E5B8F0095D8DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2FEEE8691A7E5B8F0095D8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2FEEE8741A7E5B8F0095D8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FEEE8751A7E5B8F0095D8DB /* BinFenV10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinFenV10Tests.m; sourceTree = "<group>"; };
 		2FFBE6561A8C96DB00B29C48 /* CategoriesInShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesInShopCell.h; sourceTree = "<group>"; };
 		2FFBE6571A8C96DB00B29C48 /* CategoriesInShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesInShopCell.m; sourceTree = "<group>"; };
 		2FFBE6581A8C96DB00B29C48 /* CategoriesInShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesInShopCell.xib; sourceTree = "<group>"; };
@@ -1087,7 +1085,6 @@
 				2FDA11C41A8DD7B400A60362 /* MessagesTableViewController */,
 				2F5954AE1A7E6374001D5DAD /* BFCommon */,
 				2FEEE8581A7E5B8E0095D8DB /* YouMao */,
-				2FEEE8721A7E5B8F0095D8DB /* BinFenV10Tests */,
 				2FEEE8571A7E5B8E0095D8DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1167,23 +1164,6 @@
 				2FEEE85A1A7E5B8E0095D8DB /* Info.plist */,
 				2FEEE85B1A7E5B8E0095D8DB /* main.m */,
 				2FCAC8B31AA424180050BC56 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2FEEE8721A7E5B8F0095D8DB /* BinFenV10Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2FEEE8751A7E5B8F0095D8DB /* BinFenV10Tests.m */,
-				2FEEE8731A7E5B8F0095D8DB /* Supporting Files */,
-			);
-			path = BinFenV10Tests;
-			sourceTree = "<group>";
-		};
-		2FEEE8731A7E5B8F0095D8DB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2FEEE8741A7E5B8F0095D8DB /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
