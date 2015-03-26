@@ -342,23 +342,25 @@ static const NSInteger RefreshSectionIndex = 3;
 {
     CommunityCollectionViewCell *cell = (CommunityCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:CommunityCollectionCellIdentifier forIndexPath:indexPath];
     
-    //cell.text = [self.communitiesDataList objectAtIndex:indexPath.row];
-    cell.text = [[self.dataModel.communities objectAtIndex:indexPath.row] objectForKey:@"name"];
+    if(cell == nil)
+        cell = [[CommunityCollectionViewCell alloc] init];
     
-
+    cell.text = [[self.dataModel.communities objectAtIndex:indexPath.row] objectForKey:@"name"];
     
     NSString *image1 = [[self.dataModel.communities objectAtIndex:indexPath.row] objectForKey:CommunityImage1Key];
     NSString *image2 = [[self.dataModel.communities objectAtIndex:indexPath.row] objectForKey:CommunityImage2Key];
     NSString *image3 = [[self.dataModel.communities objectAtIndex:indexPath.row] objectForKey:CommunityImage3Key];
     NSString *image4 = [[self.dataModel.communities objectAtIndex:indexPath.row] objectForKey:CommunityImage4Key];
     
-    NSInteger index = indexPath.row;
-    NSLog(@"%s: %ld, %@", __func__, (long)index, @[image1, image2, image3, image4]);
+    //NSInteger index = indexPath.row;
+    //NSLog(@"%s: %ld, %@", __func__, (long)index, @[image1, image2, image3, image4]);
     
     cell.imageNamesArray = [NSMutableArray arrayWithArray:@[image1, image2, image3, image4]];
 
+    
     return cell;
 }
+
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {

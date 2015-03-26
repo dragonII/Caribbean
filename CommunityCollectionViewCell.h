@@ -8,17 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@class LTransitionImageView;
+@class ImageAnimationView;
 
 @interface CommunityCollectionViewCell : UICollectionViewCell <UIGestureRecognizerDelegate>
 
-@property (strong, nonatomic) LTransitionImageView *transitionView;
-
-@property (strong, nonatomic) NSMutableArray *images;
 @property (strong, nonatomic) NSMutableArray *imageNamesArray;
 
 @property (strong, nonatomic) UILabel *textLabel;
 
 @property (copy, nonatomic) NSString *text;
+
+@property (strong, nonatomic) ImageAnimationView *animationView;
 
 @end
